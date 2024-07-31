@@ -1,11 +1,11 @@
 import {Link} from 'react-router-dom'
 
-import {Item} from '@/entities/ui/item'
 import {useGetCountriesQuery} from '@/shared/model/api/countries-api'
 import {ResponsiveAppBar} from '@/widgets/header/header'
 import Box from '@mui/material/Box'
 import Container from '@mui/material/Container'
 import Stack from '@mui/material/Stack'
+import {Item} from "../../shared/ui/item";
 
 export const ListCountries = () => {
     const {data: countries} = useGetCountriesQuery()

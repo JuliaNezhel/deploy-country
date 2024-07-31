@@ -25,7 +25,7 @@ export const ResponsiveAppBar = () => {
             }}
             variant={'h6'}
           >
-            <Link to={'/'}>COUNTRIES</Link>
+            <Link to={'/deploy-country/'}>COUNTRIES</Link>
           </Typography>
         </Toolbar>
       </Container>
